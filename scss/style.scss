@@ -2138,3 +2138,113 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+/* SPONSORSHIP STYLING */
+.fancy {
+	line-height: 0.5;
+	text-align: center;
+  }
+  .fancy span {
+	display: inline-block;
+	position: relative;  
+  }
+  .fancy span:before,
+  .fancy span:after {
+	content: "";
+	position: absolute;
+	height: 3px;
+	border-bottom: 2px solid #336699;
+	border-top: 2px solid #336699;
+	top: 5px;
+	width: 960px;
+  }
+  .fancy span:before {
+	right: 100%;
+	margin-right: 15px;
+  }
+  .fancy span:after {
+	left: 100%;
+	margin-left: 15px;
+  }
+  
+  #sponsors{
+	  background-color: #FFFF66;
+	 
+  }
+  #sponsors .content{
+	  text-align: center;
+	  overflow: visible;
+	  height: 700px;
+  }
+  .sponsors_categ{
+	  overflow: visible;    
+  }
+  #sponsors p{
+	  margin-top: 30px;
+	  font-size: 23px;
+  }
+  #sponsors  h3{
+	  font-family:"cicle";
+	  font-size: 32px;
+	  text-align: center;
+	  color: #336699;
+	  padding:5px;  
+  }
+  .space{
+	  padding-right:30px;
+  }
+  #sponsors a{
+	  text-decoration: none;
+	  color: black;
+  }
+  #FAQ .content{
+	  height: auto;
+	  overflow: visible;
+  }
+  #sponsors h4{
+	  padding-bottom: 20px;
+  }
+  #sponsors a:hover{
+	  text-decoration: underline;
+	  color: black;
+  }
+  #sponsors img{
+	  opacity:0.95;
+	  padding:15px;
+	  -webkit-filter: blur(1px);
+	  -moz-filter: blur(1px); 
+	  -o-filter: blur(1px); 
+	  -ms-filter: blur(1px); 
+	  filter: blur(1px);
+  }
+  #sponsors img:hover{
+	  opacity:1;
+	  -webkit-filter: blur(0px);
+	  
+  }
+  
+  .sponsors_list{
+	  text-align:center;   
+	  
+  }
+  .sponsors_list_item{
+	   width:33.3%;
+	   float:left;
+	   margin:auto;
+  }
+  #sponsors_list_1{
+	  height:150px;
+	  }
+  #sponsors_list_2{
+	  height:100px;
+  }
+  #sponsors_list_3{
+	  height:280px;
+  }
+
+  .center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+  }
