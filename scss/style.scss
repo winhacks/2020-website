@@ -2228,6 +2228,7 @@ textarea.form-control {
 	  
   }
   .sponsors_list_item{
+	   //display: inline-block;
 	   width:33.3%;
 	   float:left;
 	   margin:auto;
@@ -2239,6 +2240,7 @@ textarea.form-control {
 	  height:100px;
   }
   #sponsors_list_3{
+	  display: block;
 	  height:280px;
   }
 
@@ -2247,4 +2249,8 @@ textarea.form-control {
 	  margin-left: auto;
 	  margin-right: auto;
 	  width: 50%;
+  }
+
+  .inline-block{
+	  display: inline-block;
   }
