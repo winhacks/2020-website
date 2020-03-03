@@ -12716,6 +12716,9 @@ textarea.form-control {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    min-height: 200px;
+    background-size: cover;
+    background-image: url(https://pro2-bar-s3-cdn-cf1.myportfolio.com/05acfaa866ddc5de3581149ea4fbe2e2/9403e1c3-1156-4b68-897c-b91ba808d1f4_rw_1920.jpg?h=bb6b58deecd1428019bb9596e212e502)
 }
 
 .block-21 .text .heading a:hover,
