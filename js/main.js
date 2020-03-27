@@ -291,7 +291,7 @@
      });
 
 function makeTimer() {
-         var endTime = new Date("27 March 2020 19:00").getTime();
+         var endTime = new Date("27 March 2020 18:00").getTime();
 
          let now = new Date().getTime();
          let t = endTime - now;
